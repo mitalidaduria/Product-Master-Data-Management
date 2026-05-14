@@ -10,7 +10,7 @@ Real time BFSI payment failure canonical taxonomy design, zero shared toxonomy, 
 The Core Problem: The GW-A called a timeout "GW_TIMEOUT". GW-B called the same event "CONNECTION_EXCEEDED". A third returned null by API design. No governance framework existed to resolve this.
 
 KEY DOCUMENTS:
-1. Entity-model.md - canonical payment failure entity (12 attributes, 8 categories)
+1. [Entity-model.md](./Entity-model.md) - canonical payment failure entity (12 attributes, 8 categories)
 2. Taxonomy-design.md - affinity mapping methodology and category design
 3. STTM-payment-failure.csv: Source to target mapping across 3 sources
 4. Governance-operating-model.md: 3 layer governance framework
@@ -23,7 +23,7 @@ Informatica Cloud MDM (IDMC) Customer 360 implementation across 5 source systems
 The Anchor: RADD A-002, a pre-production architectural discovery that prevented 100,000+ ghost duplicate entity records.
 
 KEY DOCUMENTS:
-1. [Entity-model.md](./Entity-model.md) - Customer golden record entity design
+1. Entity-model.md - Customer golden record entity design
 2. survivorship-design.md - Evidence based trsut score methodology
 3. STTM-customer-360.csv - Mapping 150+ rows across 5 sources
 4. RADD-CaseStudy.md - The pre-production catch that prevented 3 sprints of rework
